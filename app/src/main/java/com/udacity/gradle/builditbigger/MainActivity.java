@@ -45,8 +45,10 @@ public class MainActivity extends AppCompatActivity {
     }
     //TODO Step 1: import JavaJokes class String[] to tell jokes when the button is pressed.
     public void tellJoke(View view) {
-
-        Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
+        toastJoke = jokes[jokeCount];
+        Toast.makeText(this, toastJoke, Toast.LENGTH_SHORT).show();
+        jokeCount+=1;
+        if(jokeCount==jokes.length) jokeCount=0;    //return to the first joke
     }
 
 
