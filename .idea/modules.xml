@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DadJokes/DadJokes.iml" filepath="$PROJECT_DIR$/DadJokes/DadJokes.iml" />
       <module fileurl="file://$PROJECT_DIR$/FinalProject.iml" filepath="$PROJECT_DIR$/FinalProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaJokeslib/JavaJokeslib.iml" filepath="$PROJECT_DIR$/JavaJokeslib/JavaJokeslib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedneckJokes/DadJokes.iml" filepath="$PROJECT_DIR$/RedneckJokes/DadJokes.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/steptwojokes/steptwojokes.iml" filepath="$PROJECT_DIR$/steptwojokes/steptwojokes.iml" />
