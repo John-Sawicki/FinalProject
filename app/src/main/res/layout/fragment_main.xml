@@ -7,13 +7,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivityFragment">
+    tools:context=".MainActivityFragment"
+                android:layout_centerHorizontal="true">
 
     <TextView
         android:id="@+id/instructions_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/instructions" />
+        android:text="@string/instructions"
+        style="@style/jokeLayout"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -21,13 +23,15 @@
         android:layout_below="@+id/instructions_text_view"
         android:id="@+id/java_button"
         android:onClick="tellJoke"
-        android:text="@string/java_joke_button" />
+        android:text="@string/java_joke_button"
+        style="@style/jokeLayout"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/java_button"
         android:id="@+id/goToStepTwoButton"
-        android:text="@string/android_joke_button" />
+        android:text="@string/android_joke_button"
+        style="@style/jokeLayout"/>
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"

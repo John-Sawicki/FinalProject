@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">stepTwoJokes</string>
+    <string name="joke_button">Tell a Redneck Joke</string>
 </resources>
