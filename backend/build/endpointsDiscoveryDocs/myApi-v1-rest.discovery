@@ -45,6 +45,7 @@
  "name": "myApi",
  "ownerDomain": "backend.builditbigger.gradle.udacity.com",
  "ownerName": "backend.builditbigger.gradle.udacity.com",
+ "packagePath": "backend.builditbigger.gradle.udacity.com",
  "parameters": {
   "alt": {
    "default": "json",

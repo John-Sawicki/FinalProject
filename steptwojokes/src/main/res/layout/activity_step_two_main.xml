@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.steptwojokes.StepTwoMainActivity">
+    <TextView
+
+        android:layout_below="@+id/goToStepTwoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_redneck_joke"
+        android:text="Press the button to see a redneck joke."
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="8dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/java_button"
         android:id="@+id/goToStepTwoButton"
         android:text="@string/joke_button"
-        android:layout_gravity="center"/>
+        app:layout_constraintTop_toBottomOf="@id/tv_redneck_joke"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        android:layout_margin="8dp"/>
 
-</FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

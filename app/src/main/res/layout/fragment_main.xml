@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivityFragment"
-                android:layout_centerHorizontal="true">
+    android:layout_centerHorizontal="true">
 
     <TextView
         android:id="@+id/instructions_text_view"
@@ -25,13 +25,20 @@
         android:onClick="tellJoke"
         android:text="@string/java_joke_button"
         style="@style/jokeLayout"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/java_button"
+        android:id="@+id/tv_javaJoke"
+        android:text="Press the Dad Joke button to see a joke."
+        android:padding="16dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/java_button"
+        android:layout_below="@+id/tv_javaJoke"
         android:id="@+id/goToStepTwoButton"
         android:text="@string/android_joke_button"
-        style="@style/jokeLayout"/>
+        />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"

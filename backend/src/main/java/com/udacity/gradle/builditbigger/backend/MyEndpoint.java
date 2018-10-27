@@ -13,9 +13,7 @@ import javax.inject.Named;
         namespace = @ApiNamespace(
                 ownerDomain = "backend.builditbigger.gradle.udacity.com",
                 ownerName = "backend.builditbigger.gradle.udacity.com",
-                packagePath = ""
-                //
-        )
+                packagePath = "backend.builditbigger.gradle.udacity.com")
 )
 public class MyEndpoint {
 

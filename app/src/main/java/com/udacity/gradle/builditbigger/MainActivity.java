@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 import com.example.android.javajokeslib.JavaJokes;
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     String[] jokes = mJavaJokes.dadJokes;
     String toastJoke;
     int jokeCount =0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     //TODO Step 1: import JavaJokes class String[] to tell jokes when the button is pressed.
     public void tellJoke(View view) {
         toastJoke = jokes[jokeCount];
-        Toast.makeText(this, toastJoke, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, toastJoke, Toast.LENGTH_LONG).show();
         jokeCount+=1;
         if(jokeCount==jokes.length) jokeCount=0;    //return to the first joke
     }
